@@ -1,5 +1,5 @@
 -- Excliui o banco de dados
--- DROP DATABASE curintia IF EXISTS;
+DROP DATABASE IF EXISTS curintia;
 
 -- CRIA O BANCO DE DADOS
 CREATE DATABASE IF NOT EXISTS curintia;
@@ -92,28 +92,28 @@ CREATE TABLE IF NOT EXISTS `vendidos` (
   CONSTRAINT `fk_vendidos_funcionarios1` FOREIGN KEY (`funcionarios_matricula`) REFERENCES `funcionarios` (`matricula`)
 );
 
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('65162-049', 'Jenna', '', 'Eira Nova', 'Porto', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('51346-171', 'Esker', '', 'Lintingkou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('55154-7469', 'Westerfield', '', 'Kaura Namoda', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('63783-501', 'Delladonna', '', 'Foros da Catrapona', 'Setúbal', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('48951-9166', 'Bunting', '', 'Волочаевское', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0185-0020', 'Linden', '', 'Luzhou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('59779-823', 'Hoepker', '', 'Daping', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('63323-237', 'Hoepker', '', 'Florence', 'South Carolina', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('59779-358', 'Elmside', '', 'Bila', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('55154-0219', 'Arkansas', '', 'Galveias', 'Portalegre', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('42808-500', 'Logan', '', 'Petit Valley', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0430-0145', 'Larry', '', 'Dob', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('37000-779', 'Holmberg', '', 'Bāsht', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0603-4415', 'Kennedy', '', 'Kagadi', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('57955-0305', 'Loftsgordon', '', 'Yakovlevo', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('11084-071', 'Homewood', '', 'Āzādshahr', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('54868-0538', 'Cardinal', '', 'Senahú', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('53329-102', 'Dennis', '', 'Saurama', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('51706-114', 'Grasskamp', '', 'Kozhanka', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('42851-152', 'Steensland', '', 'Cikalang', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('41163-121', 'Rowland', '', 'Guanzhou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('53808-0848', 'Spohn', '', 'Souto do Meio', 'Leiria', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0407-1413', 'Waubesa', '', 'Pulau Pinang', 'Pulau Pinang', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('21695-764', 'Killdeer', '', 'Illéla', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('52125-400', 'Hauk', '', 'Zhendeqiao', null, '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (98860771, 'Park Meadow', '', 'Newport News', 'Virginia', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (26360149, 'Beilfuss', '', 'Tyler', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (24971323, 'Stoughton', '', 'Norfolk', 'Virginia', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (32813459, 'Pennsylvania', '', 'Lawrenceville', 'Georgia', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (33395580, 'Meadow Ridge', '', 'Dallas', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (66575921, 'Loomis', '', 'Dallas', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (18853418, 'Forster', '', 'Amarillo', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (77727522, 'Merchant', '', 'Louisville', 'Kentucky', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (53015239, 'Bluejay', '', 'Carlsbad', 'California', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (90807252, 'Little Fleur', '', 'Lubbock', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (83300006, 'Sloan', '', 'Washington', 'District of Columbia', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (6131187, 'Oriole', '', 'Plano', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (72792903, 'Colorado', '', 'Houston', 'Texas', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (90000298, 'Debra', '', 'Maple Plain', 'Minnesota', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (41222385, 'Manley', '', 'Miami', 'Florida', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (71727947, 'Northwestern', '', 'Fort Wayne', 'Indiana', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (8599487, 'Blackbird', '', 'Rochester', 'New York', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (98012944, 'Lakewood', '', 'Denver', 'Colorado', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (37621074, 'Golf', '', 'Meridian', 'Mississippi', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (96883597, 'Village', '', 'Buffalo', 'New York', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (57268243, 'Redwing', '', 'Baltimore', 'Maryland', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (95428790, 'Derek', '', 'Las Vegas', 'Nevada', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (11255228, 'Sheridan', '', 'New York City', 'New York', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (21911141, 'Karstens', '', 'Roanoke', 'Virginia', '');
+insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (5445448, 'Columbus', '', 'Lake Charles', 'Louisiana', '');
