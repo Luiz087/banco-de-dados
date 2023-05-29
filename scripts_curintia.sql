@@ -118,32 +118,6 @@ insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (11
 insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (21911141, 'Karstens', '', 'Roanoke', 'Virginia', '');
 insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (5445448, 'Columbus', '', 'Lake Charles', 'Louisiana', '');
 
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('65162-049', 'Jenna', '', 'Eira Nova', 'Porto', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('51346-171', 'Esker', '', 'Lintingkou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('55154-7469', 'Westerfield', '', 'Kaura Namoda', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('63783-501', 'Delladonna', '', 'Foros da Catrapona', 'Setúbal', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('48951-9166', 'Bunting', '', 'Волочаевское', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0185-0020', 'Linden', '', 'Luzhou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('59779-823', 'Hoepker', '', 'Daping', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('63323-237', 'Hoepker', '', 'Florence', 'South Carolina', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('59779-358', 'Elmside', '', 'Bila', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('55154-0219', 'Arkansas', '', 'Galveias', 'Portalegre', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('42808-500', 'Logan', '', 'Petit Valley', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0430-0145', 'Larry', '', 'Dob', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('37000-779', 'Holmberg', '', 'Bāsht', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0603-4415', 'Kennedy', '', 'Kagadi', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('57955-0305', 'Loftsgordon', '', 'Yakovlevo', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('11084-071', 'Homewood', '', 'Āzādshahr', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('54868-0538', 'Cardinal', '', 'Senahú', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('53329-102', 'Dennis', '', 'Saurama', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('51706-114', 'Grasskamp', '', 'Kozhanka', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('42851-152', 'Steensland', '', 'Cikalang', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('41163-121', 'Rowland', '', 'Guanzhou', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('53808-0848', 'Spohn', '', 'Souto do Meio', 'Leiria', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('0407-1413', 'Waubesa', '', 'Pulau Pinang', 'Pulau Pinang', '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('21695-764', 'Killdeer', '', 'Illéla', null, '');
-insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values ('52125-400', 'Hauk', '', 'Zhendeqiao', null, '');
-
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Adelheid', 68704944920, 'SedVestibulum.ppt', false, 'Silhouette');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Vasily', 52884361363, 'EtTempus.xls', true, 'S10');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Herold', 7823368975, 'BlanditNon.tiff', false, 'Navigator');
