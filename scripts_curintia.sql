@@ -170,32 +170,6 @@ insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, endere
 insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (33799, 'Ashbey', 98288857125, 79896897818, 66949, 'limpador', 78651254);
 insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (69111, 'Nani', 89697889863, 71680589359, 367649, 'vendedor', 93222148);
 
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (68785020736268, 'Guenna', 76775109279, 'Streich, Bednar and Jones', '5th Floor');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (11639021681582, 'Adan', 55813361975, 'Hintz, Schaden and Jerde', 'PO Box 35830');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (87315142571796, 'Eba', 24100790474, 'Feest-Stroman', 'Suite 49');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (14879047680685, 'Andreas', 33153738324, 'Crona-Wilkinson', 'Room 170');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (80802075229191, 'Vicki', 93409201737, 'Price, Stark and Renner', 'PO Box 27186');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (20239047489459, 'Chevy', 85615925265, 'Altenwerth-Lebsack', 'Room 486');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (17190166389307, 'Itch', 47530031860, 'Greenfelder-Marquardt', 'Suite 3');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (47511596811729, 'Otto', 30195753349, 'Ernser, Roob and Hane', '2nd Floor');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (87484758032080, 'Orelie', 51619853633, 'Wyman, Frami and Koepp', 'Room 695');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (40320605961699, 'Seymour', 72311907553, 'Roberts, Wuckert and Sipes', 'Apt 885');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (49323464349847, 'Farrell', 27291434723, 'Keebler-Paucek', 'PO Box 20124');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (60497002970115, 'Ines', 82611155984, 'Lehner-Harvey', 'Apt 1217');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (82799058630448, 'Eunice', 94633683249, 'Blanda and Sons', 'Room 49');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (31197358103477, 'Tuck', 32280898660, 'Rempel, Ruecker and Trantow', 'Apt 426');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (18863417393296, 'Annecorinne', 58006698264, 'Hamill, MacGyver and Lubowitz', '20th Floor');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (97026650892014, 'Caspar', 30069793809, 'Kreiger LLC', 'PO Box 37153');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (2657640855493, 'Curr', 92173932031, 'Wiegand and Sons', 'Room 1804');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (95454682516783, 'Giffy', 90775188539, 'Goodwin, Conn and Armstrong', 'Apt 1909');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (80945584037641, 'Amery', 79432382480, 'Blick, Hirthe and Gutmann', '1st Floor');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (67282934767082, 'Joy', 78211919966, 'Steuber-Murazik', 'PO Box 85352');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (25645746334989, 'Evangelina', 82330832535, 'Pagac-Grimes', 'PO Box 15751');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (89593277601400, 'Scotti', 45964541468, 'McLaughlin, Champlin and Labadie', 'PO Box 95373');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (37589303735333, 'Cordie', 34295476772, 'Hackett and Sons', 'Suite 50');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (29925170873467, 'Mignon', 46182439323, 'Goyette and Sons', 'Room 1579');
-insert into funcionarios (cnpj, nome, telefone, empresa, endereco) values (91697519296538, 'Ashton', 63203556793, 'Turcotte, Hudson and Schumm', 'Room 663');
-
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Adelheid', 68704944920, 'SedVestibulum.ppt', false, 'Silhouette');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Vasily', 52884361363, 'EtTempus.xls', true, 'S10');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Herold', 7823368975, 'BlanditNon.tiff', false, 'Navigator');
