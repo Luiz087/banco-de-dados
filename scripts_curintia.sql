@@ -144,6 +144,32 @@ insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_ce
 insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (24, 'Maye', 4603538872, 'mmaithn', '466-470-8503', 'mmasselinn@simplemachines.org', '36987-2826');
 insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (25, 'Romy', 30033080808, 'rstotherfieldo', '873-640-9503', 'rcuttingso@squidoo.com', '37205-833');
 
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (1, 'Arv', 'Suite 48', 15592306203234, '773-914-3581', 'Jabberstorm', '21695-009');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (2, 'Alfie', 'Room 1597', 482645758934, '424-148-8855', 'Browsecat', '54868-5820');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (3, 'Philly', 'PO Box 58014', 52424853414711, '800-374-1049', 'Linkbuzz', '11523-7143');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (4, 'Mollee', 'Suite 81', 84504112253590, '462-515-7179', 'Gigazoom', '0245-1071');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (5, 'Ancell', 'PO Box 58130', 87189673318580, '862-198-5750', 'Topicware', '49288-0813');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (6, 'Grayce', 'Apt 1500', 89964980794072, '318-487-0293', 'Skidoo', '29500-9077');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (7, 'Yancy', 'Suite 66', 88016419411308, '532-235-8394', 'Meevee', '64117-529');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (8, 'Vevay', 'PO Box 51174', 95870469209842, '522-984-8550', 'Realbuzz', '49989-515');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (9, 'Errol', 'PO Box 78298', 60372553692801, '722-627-0597', 'Miboo', '64764-944');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (10, 'Carney', 'Room 1652', 37773538783833, '717-242-4898', 'Edgepulse', '43353-142');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (11, 'Grace', '9th Floor', 44935043362905, '928-251-6798', 'Meeveo', '68169-0375');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (12, 'Deborah', 'PO Box 66626', 75961929059104, '329-903-2024', 'Yakitri', '67172-113');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (13, 'Mureil', '18th Floor', 15410155862095, '632-145-8447', 'LiveZ', '98132-179');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (14, 'Madelaine', 'PO Box 25091', 59061355253321, '663-825-8993', 'Topicstorm', '0268-6310');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (15, 'Lelia', 'Suite 58', 9829666941566, '860-626-5297', 'Kanoodle', '20367-113');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (16, 'Deanne', '11th Floor', 6852565064518, '930-402-8852', 'Kwideo', '55910-559');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (17, 'Pierette', 'PO Box 40592', 70015123161583, '897-542-8951', 'Aivee', '48433-302');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (18, 'Jonathon', '19th Floor', 56111673149659, '840-988-2024', 'Katz', '0517-0372');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (19, 'Roddie', 'Room 891', 11138850216581, '478-992-0835', 'Kaymbo', '63629-4947');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (20, 'Tresa', 'Room 933', 70292873355742, '257-970-3822', 'Devbug', '37000-141');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (21, 'Shae', 'Suite 71', 18905985118185, '422-102-6550', 'Dabtype', '52810-206');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (22, 'Noreen', 'PO Box 74451', 447067452855, '678-910-9761', 'Skyvu', '43269-888');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (23, 'Lutero', 'Suite 47', 52647835835651, '520-992-3293', 'Rhycero', '45167-040');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (24, 'Meara', 'Apt 1897', 19565656412843, '809-108-5754', 'Jayo', '53808-0227');
+insert into fornecedores (id_forncedor, nome, endereco, cnpj, telefone, empresa, endereco_cep) values (25, 'Zach', 'Suite 46', 52014879603811, '856-994-2347', 'Minyx', '98132-883');
+
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Cadillac', 'Escalade ESV', 93, 65, false, false, true, false, 2007, 'Orange', true, 617175);
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Volkswagen', 'Touareg', 37, 61, false, false, false, true, 2008, 'Mauv', true, 15930);
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Lincoln', 'Navigator', 82, 36, true, false, true, false, 2011, 'Mauv', true, 781195);
