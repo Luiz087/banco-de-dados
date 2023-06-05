@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `fornecedores` (
 );
 
 CREATE TABLE IF NOT EXISTS `veiculos` (
-  `id_veiculo` BIGINT NOT NULL,
+  `id_veiculo` BIGINT NOT NULL auto_increment,
   `modelo` VARCHAR(45) NOT NULL,
   `novos` TINYINT NOT NULL,
   `eletrico` TINYINT NOT NULL,
@@ -61,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `clientes` (
 );
 
 CREATE TABLE IF NOT EXISTS `funcionarios` (
-  `matricula` BIGINT NOT NULL,
+  `matricula` BIGINT NOT NULL auto_increment,
   `nome` VARCHAR(45) NOT NULL,
   `cpf` BIGINT NOT NULL,
   `contato` BIGINT NOT NULL,
@@ -144,31 +144,31 @@ insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, e
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Mercury', 'Grand Marquis', 1, 23, false, true, true, true, 2002, 'Mauv', false, 518766);
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Plymouth', 'Colt Vista', 34, 85, true, false, false, false, 1994, 'Indigo', true, 583661);
 
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (25837, 'Lindy', 22726014571, 13410553435, 723164, 'atendente', 26585150);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (21403, 'Jarret', 48791425360, 35980146935, 872439, 'controle de qualidade', 36095615);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (66805, 'Catrina', 80075228935, 19591078528, 34577, 'assistente financeiro', 43952416);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (12162, 'Karola', 15101050114, 77896118040, 60396, 'financeiro', 14511259);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (53884, 'Marsiella', 34307250676, 90680934226, 266864, 'anunciante', 3128314);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (3506, 'Bertha', 12463955569, 90116297387, 848844, 'limpador', 57427127);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (62286, 'Ferguson', 58930365379, 46109461366, 752010, 'atendente', 79994788);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (32700, 'Natka', 89531149986, 35610619177, 904351, 'abastecedor', 70447519);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (35722, 'Klarrisa', 9836497788, 91137859023, 366295, 'vendedor', 83800653);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (86322, 'Lari', 9877551095, 63845844974, 916615, 'empresario', 15743572);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (64190, 'Grace', 23309499408, 67234740452, 514410, 'mecanico', 62916261);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (14218, 'Aila', 505005408, 81714544142, 254192, 'sócio proprietario', 98150887);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (52267, 'Cyrille', 23547659105, 71090598457, 228762, 'coordernador', 99968732);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (95923, 'Marcile', 13348431197, 53528462624, 628954, 'Editor', 65937121);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (10898, 'Siegfried', 3552317540, 55399779452, 994769, 'Administrator', 29588060);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (3757, 'Pete', 12343440841, 77806073273, 182210, 'vendedor', 75672059);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (69152, 'Georgia', 39684215524, 5922694783, 808915, 'aprendiz de vendas', 40671665);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (46386, 'Berkley', 23432922723, 12278096315, 37000, 'Marketing', 91645844);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (63641, 'Stefano', 80946074838, 83454126209, 288747, 'mecanico', 3104288);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (40421, 'Meredithe', 33494134391, 84019606741, 461362, 'financiador', 99522093);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (49478, 'Zachary', 19495325321, 80874368814, 63220, 'gerente', 47559826);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (8403, 'Hanna', 50105009335, 36324574674, 768937, 'dono', 67687782);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (52362, 'Betti', 51034921685, 59913892801, 659172, 'atendente', 11668950);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (33799, 'Ashbey', 98288857125, 79896897818, 66949, 'limpador', 78651254);
-insert into funcionarios (matricula, nome, cpf, contato, salario, funcao, enderercos_cep) values (69111, 'Nani', 89697889863, 71680589359, 367649, 'vendedor', 93222148);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (25837, 'Lindy', 22726014571, 13410553435, 723164, 'atendente', 26585150);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (21403, 'Jarret', 48791425360, 35980146935, 872439, 'controle de qualidade', 36095615);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (66805, 'Catrina', 80075228935, 19591078528, 34577, 'assistente financeiro', 43952416);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (12162, 'Karola', 15101050114, 77896118040, 60396, 'financeiro', 14511259);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (53884, 'Marsiella', 34307250676, 90680934226, 266864, 'anunciante', 3128314);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (3506, 'Bertha', 12463955569, 90116297387, 848844, 'limpador', 57427127);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (62286, 'Ferguson', 58930365379, 46109461366, 752010, 'atendente', 79994788);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (32700, 'Natka', 89531149986, 35610619177, 904351, 'abastecedor', 70447519);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (35722, 'Klarrisa', 9836497788, 91137859023, 366295, 'vendedor', 83800653);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (86322, 'Lari', 9877551095, 63845844974, 916615, 'empresario', 15743572);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (64190, 'Grace', 23309499408, 67234740452, 514410, 'mecanico', 62916261);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (14218, 'Aila', 505005408, 81714544142, 254192, 'sócio proprietario', 98150887);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (52267, 'Cyrille', 23547659105, 71090598457, 228762, 'coordernador', 99968732);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (95923, 'Marcile', 13348431197, 53528462624, 628954, 'Editor', 65937121);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (10898, 'Siegfried', 3552317540, 55399779452, 994769, 'Administrator', 29588060);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (3757, 'Pete', 12343440841, 77806073273, 182210, 'vendedor', 75672059);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (69152, 'Georgia', 39684215524, 5922694783, 808915, 'aprendiz de vendas', 40671665);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (46386, 'Berkley', 23432922723, 12278096315, 37000, 'Marketing', 91645844);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (63641, 'Stefano', 80946074838, 83454126209, 288747, 'mecanico', 3104288);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (40421, 'Meredithe', 33494134391, 84019606741, 461362, 'financiador', 99522093);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (49478, 'Zachary', 19495325321, 80874368814, 63220, 'gerente', 47559826);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (8403, 'Hanna', 50105009335, 36324574674, 768937, 'dono', 67687782);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (52362, 'Betti', 51034921685, 59913892801, 659172, 'atendente', 11668950);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (33799, 'Ashbey', 98288857125, 79896897818, 66949, 'limpador', 78651254);
+insert into funcionarios (nome, cpf, contato, salario, funcao, enderercos_cep) values (69111, 'Nani', 89697889863, 71680589359, 367649, 'vendedor', 93222148);
 
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Adelheid', 68704944920, 'SedVestibulum.ppt', false, 'Silhouette');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Vasily', 52884361363, 'EtTempus.xls', true, 'S10');
@@ -196,4 +196,4 @@ insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Jacob', 19
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Melva', 37264335722, 'OdioOdioElementum.mp3', true, 'Defender 110');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Hildagard', 90710219622, 'Nunc.txt', true, 'NV2500');
 
-
+select * from veiculos;
