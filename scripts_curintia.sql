@@ -118,6 +118,32 @@ insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (11
 insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (21911141, 'Karstens', '', 'Roanoke', 'Virginia', '');
 insert into enderecos (cep, rua, bairro, cidade, estado, complemento) values (5445448, 'Columbus', '', 'Lake Charles', 'Louisiana', '');
 
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (1, 'Merrie', 17690579258, 'mskedge0', '600-450-9004', 'mshiers0@google.co.uk', '68788-9799');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (2, 'Milo', 92870665218, 'mmehaffey1', '394-374-8217', 'mgelardi1@latimes.com', '0187-2097');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (3, 'Emmanuel', 1396608876, 'eoldroyde2', '605-882-1683', 'ewiddup2@sourceforge.net', '0615-7713');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (4, 'Carita', 81134980688, 'csepey3', '671-906-8688', 'cmarie3@dedecms.com', '61722-183');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (5, 'Stanleigh', 694068410, 'sdelacey4', '894-400-9064', 'scrowth4@so-net.ne.jp', '68462-361');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (6, 'Kelcie', 95560040490, 'ksurphliss5', '961-853-1599', 'kholliar5@ycombinator.com', '13537-189');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (7, 'Misti', 60726342495, 'mmeaney6', '895-782-3729', 'mflay6@liveinternet.ru', '54868-6083');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (8, 'Sophi', 24113827613, 'shouchin7', '704-809-8818', 'scresswell7@adobe.com', '63629-3316');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (9, 'Fritz', 88611572058, 'fsillis8', '134-877-1204', 'ftemplar8@dropbox.com', '41163-645');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (10, 'York', 70559598841, 'ygreeve9', '622-916-2366', 'yinston9@squidoo.com', '52376-036');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (11, 'Roxine', 32718545551, 'rsherela', '983-504-1671', 'rthainea@washingtonpost.com', '0574-4022');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (12, 'Caresa', 79291776127, 'cquiddingtonb', '341-192-4410', 'cconboyb@soundcloud.com', '13668-167');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (13, 'Rich', 61559298429, 'rsleenyc', '637-950-5225', 'rthomelc@usatoday.com', '63629-3976');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (14, 'Matti', 23846919652, 'mmawdd', '353-534-6440', 'mtreasadend@sogou.com', '30142-190');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (15, 'Giselbert', 36935266181, 'gmcgaugiee', '558-355-9687', 'ggilvarye@rediff.com', '36987-1735');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (16, 'Hedvig', 25184984202, 'hwytchardf', '568-280-1644', 'hmemmoryf@comcast.net', '0597-0087');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (17, 'Monah', 6886443171, 'mshovelbottomg', '652-588-2544', 'mnodeng@java.com', '54868-4021');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (18, 'Adriane', 65529726853, 'ahummerstonh', '662-209-8767', 'abuddellh@disqus.com', '0603-1008');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (19, 'Dorisa', 8069454641, 'dboci', '457-975-4127', 'dreedmani@newsvine.com', '52125-424');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (20, 'Leilah', 8238276754, 'llowrej', '633-123-5545', 'ldockreyj@apache.org', '64990-385');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (21, 'Romola', 54128587828, 'rluthwoodk', '757-233-1861', 'rstriplingk@bloglovin.com', '36987-1202');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (22, 'Jourdan', 64962105500, 'jbyforthl', '167-938-5828', 'jcolombierl@miitbeian.gov.cn', '49349-468');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (23, 'Jenifer', 86522957990, 'jmichelinm', '727-813-9528', 'jbehningm@army.mil', '49884-661');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (24, 'Maye', 4603538872, 'mmaithn', '466-470-8503', 'mmasselinn@simplemachines.org', '36987-2826');
+insert into cliente (id_cliente, nome, cpf, usuário, telefone, gmail, table1_cep) values (25, 'Romy', 30033080808, 'rstotherfieldo', '873-640-9503', 'rcuttingso@squidoo.com', '37205-833');
+
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Cadillac', 'Escalade ESV', 93, 65, false, false, true, false, 2007, 'Orange', true, 617175);
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Volkswagen', 'Touareg', 37, 61, false, false, false, true, 2008, 'Mauv', true, 15930);
 insert into veiculos (marca, modelo, potencia, quilometragem, novos, eletrico, esportivo, picape, ano, cor, abs, preco) values ('Lincoln', 'Navigator', 82, 36, true, false, true, false, 2011, 'Mauv', true, 781195);
