@@ -291,6 +291,12 @@ UPDATE veiculos SET marca = "Fiat", modelo = "Uno", potencia = 95, quilometragem
 UPDATE veiculos SET marca = "Nissan", modelo = "Kicks", potencia = 120, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2023, cor = "Branco", abs = true, preco = 95000, fornecedor_id_fornecedor = 23 WHERE id_veiculo = 9;
 UPDATE veiculos SET marca = "Hiunday", modelo = "Creta", potencia = 135, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2022, cor = "Cinza", abs = true, preco = 145000, fornecedor_id_fornecedor = 22 WHERE id_veiculo = 10;
 
+DELETE FROM vendidos WHERE veiculos_id_veiculo = 1;
+DELETE FROM vendidos WHERE veiculos_id_veiculo = 2;
+DELETE FROM vendidos WHERE veiculos_id_veiculo = 3;
+DELETE FROM vendidos WHERE veiculos_id_veiculo = 4;
+DELETE FROM vendidos WHERE veiculos_id_veiculo = 5;
+
 DELETE FROM funcionarios WHERE matricula = 1;
 DELETE FROM funcionarios WHERE matricula = 2;
 DELETE FROM funcionarios WHERE matricula = 3;
