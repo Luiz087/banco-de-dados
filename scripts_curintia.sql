@@ -266,6 +266,36 @@ SELECT * FROM veiculos order by id_veiculo;
 SELECT * FROM funcionarios order by matricula;
 SELECT * FROM vendidos order by veiculos_id_veiculo;
 
+SELECT veiculos.modelo,
+    veiculos.novos,
+    veiculos.eletrico,
+    veiculos.esportivo,
+    veiculos.picape,
+    veiculos.ano,
+    veiculos.cor,
+    veiculos.marca,
+    veiculos.preco,
+    veiculos.quilometragem,
+    veiculos.potencia,
+    veiculos.abs,
+    veiculos.fornecedor_id_fornecedor,
+    clientes.nome, 
+    clientes.cpf,
+    clientes.usuario,
+    clientes.telefone,
+    clientes.gmail,
+    clientes.table1_cep,
+    funcionarios.nome,
+    funcionarios.cpf,
+    funcionarios.contato,
+    funcionarios.salario,
+    funcionarios.funcao,
+    funcionarios.enderecos_cep
+    FROM vendidos
+INNER JOIN funcionarios ON vendidos.funcionarios_matricula = funcionarios.matricula
+INNER JOIN veiculos ON vendidos.veiculos_id_veiculo = veiculos.id_veiculo
+INNER JOIN clientes ON vendidos.clientes_id_cliente = clientes.id_cliente;
+
 UPDATE enderecos SET rua ="Rua dos bobos",bairro="Velha",cidade="Jaragua",estado="SC" WHERE cep = 98860771;
 UPDATE enderecos SET rua ="Blumenau",bairro="Velha",cidade="Blumenau",estado="SC" WHERE cep = 26360149;
 UPDATE enderecos SET rua ="Arthur Gieseler",bairro="Nova",cidade="Joinville",estado="SC" WHERE cep = 26360149;
