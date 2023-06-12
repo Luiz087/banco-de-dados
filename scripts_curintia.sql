@@ -310,6 +310,17 @@ UPDATE veiculos SET marca = "Fiat", modelo = "Uno", potencia = 95, quilometragem
 UPDATE veiculos SET marca = "Nissan", modelo = "Kicks", potencia = 120, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2023, cor = "Branco", abs = true, preco = 95000, fornecedor_id_fornecedor = 23 WHERE id_veiculo = 9;
 UPDATE veiculos SET marca = "Hiunday", modelo = "Creta", potencia = 135, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2022, cor = "Cinza", abs = true, preco = 145000, fornecedor_id_fornecedor = 22 WHERE id_veiculo = 10;
 
+UPDATE vendidos SET nome = "Rodrigo", cpf=28716145631, usuario='Eric.o', ipva_pago=false, modelo='Navigator', clientes_id_cliente=1, funcionarios_matricula=1, tipo_veiculo='Picape' WHERE veiculos_id_veiculo =1 ;
+UPDATE vendidos SET nome = "Andrei", cpf=16272567685, usuario='luis.g', ipva_pago=true, modelo='Camaro', clientes_id_cliente=2, funcionarios_matricula=2, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 2;
+UPDATE vendidos SET nome = "bernardo", cpf=91315765080, usuario='liz.s', ipva_pago=false, modelo='RAV4', clientes_id_cliente=3, funcionarios_matricula=3, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 3;
+UPDATE vendidos SET nome = "Gustavo", cpf=55035814157, usuario='joao.g', ipva_pago=true, modelo='RAV4', clientes_id_cliente=4, funcionarios_matricula=4, tipo_veiculo='Picape' WHERE veiculos_id_veiculo =4 ;
+UPDATE vendidos SET nome = "Amanda", cpf=03567342266, usuario='liz.z', ipva_pago=true, modelo='Camaro', clientes_id_cliente=5, funcionarios_matricula=5, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 5;
+UPDATE vendidos SET nome = "Carlos", cpf=81771519592, usuario='joao.df', ipva_pago=false, modelo='Navigator', clientes_id_cliente=6, funcionarios_matricula=6, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 6;
+UPDATE vendidos SET nome = "Erik", cpf=16164101590, usuario='Eric.de', ipva_pago=true, modelo='Camaro', clientes_id_cliente=7, funcionarios_matricula=7, tipo_veiculo='Picape' WHERE veiculos_id_veiculo =7 ;
+UPDATE vendidos SET nome = "Anderson", cpf=66119902759, usuario='luis.lo', ipva_pago=false, modelo='RAV4', clientes_id_cliente=8, funcionarios_matricula=8, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 8;
+UPDATE vendidos SET nome = "Robson", cpf=90190269766, usuario='Eric.sa', ipva_pago=true, modelo='Camaro', clientes_id_cliente=9, funcionarios_matricula=9, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 9 ;
+UPDATE vendidos SET nome = "Welliton", cpf=94642174800, usuario='luiz.s', ipva_pago=false, modelo='Navigator', clientes_id_cliente=10, funcionarios_matricula=10, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 10;
+
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 1;
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 2;
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 3;
