@@ -297,6 +297,13 @@ DELETE FROM funcionarios WHERE matricula = 3;
 DELETE FROM funcionarios WHERE matricula = 4;
 DELETE FROM funcionarios WHERE matricula = 5;
 
+DELETE FROM fornecedores WHERE id_fornecedor = 1;
+DELETE FROM fornecedores WHERE id_fornecedor = 2;
+DELETE FROM fornecedores WHERE id_fornecedor = 3;
+DELETE FROM fornecedores WHERE id_fornecedor = 4;
+DELETE FROM fornecedores WHERE id_fornecedor = 5;
+
+
 select * from veiculos;
 select * from enderecos;
 select * from funcionarios;
