@@ -258,7 +258,6 @@ UPDATE enderecos SET rua ="7 de Novembro",bairro="Velha Nova",cidade="Blumenau",
 UPDATE enderecos SET rua ="Rua Steves",bairro="Ponta Aguda",cidade="Springfield",estado="Texas" WHERE cep = 53015239;
 UPDATE enderecos SET rua ="Rua Joinville",bairro="Passo Manso",cidade="Blumenau",estado="SC" WHERE cep = 90807252;
 
-<<<<<<< HEAD
 UPDATE fornecedores SET nome = "ASTOLFO", endereco="Apt 3543",cnpj=5646765373, telefone= 25254564364, empresa= "slefd", endereco_cep=98860771 WHERE id_fornecedor= 1;
 UPDATE fornecedores SET nome = "RODRIGO", endereco="10th flack",cnpj=7583939404, telefone= 46543364653, empresa= "rolú", endereco_cep=26360149 WHERE id_fornecedor= 2;
 UPDATE fornecedores SET nome = "LUÍS", endereco="suíte 666",cnpj=9605054839, telefone= 86940285032, empresa= "plasvale", endereco_cep=24971323 WHERE id_fornecedor= 3;
@@ -270,8 +269,6 @@ UPDATE fornecedores SET nome = "ERIC", endereco="PO BOX 54354",cnpj=5676765735, 
 UPDATE fornecedores SET nome = "PEDRO", endereco="PO BOX 5435",cnpj=9584930295, telefone= 65858496943, empresa= "OBOTICARIO", endereco_cep=53015239 WHERE id_fornecedor= 9;
 UPDATE fornecedores SET nome = "LUCAS", endereco=" BOX 46436",cnpj=5754774567, telefone= 57578474737, empresa= "BARÃO", endereco_cep=53015239 WHERE id_fornecedor= 10;
 
-
-=======
 UPDATE funcionarios SET nome ="Lindy", cpf="51267649003	", contato="95937385512", salario="435345", funcao = 'vendedor', enderecos_cep = 98860771 WHERE matricula = 1;
 UPDATE funcionarios SET nome ="Jarret", cpf="73775878068", contato="92935526593", salario="435435", funcao = 'vendedor', enderecos_cep = 98860771 WHERE matricula = 2;
 UPDATE funcionarios SET nome ="Arthur", cpf="80662784030", contato="67936405836", salario="123123", funcao = 'vendedor', enderecos_cep = 26360149 WHERE matricula = 3;
@@ -282,7 +279,6 @@ UPDATE funcionarios SET nome ="Lara", cpf="25627834099", contato="67936405823", 
 UPDATE funcionarios SET nome ="Luiz", cpf="04223201026", contato="67936405889", salario="654654", funcao = 'aprendiz de vendas', enderecos_cep = 33395580 WHERE matricula = 8;
 UPDATE funcionarios SET nome ="Luis", cpf="36257549086", contato="95937385512", salario="234567", funcao = 'aprendiz de vendas', enderecos_cep = 90807252 WHERE matricula = 9;
 UPDATE funcionarios SET nome ="Eric", cpf="54985014044", contato="95937385511", salario="498654", funcao = 'dono', enderecos_cep = 90807252 WHERE matricula = 10;
->>>>>>> main
 
 select * from veiculos;
 select * from enderecos;
