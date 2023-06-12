@@ -280,6 +280,17 @@ UPDATE funcionarios SET nome ="Luiz", cpf="04223201026", contato="67936405889", 
 UPDATE funcionarios SET nome ="Luis", cpf="36257549086", contato="95937385512", salario="234567", funcao = 'aprendiz de vendas', enderecos_cep = 90807252 WHERE matricula = 9;
 UPDATE funcionarios SET nome ="Eric", cpf="54985014044", contato="95937385511", salario="498654", funcao = 'dono', enderecos_cep = 90807252 WHERE matricula = 10;
 
+UPDATE veiculos SET marca = "Ford", modelo = "Ka", potencia = 95, quilometragem = 30000, novos = true, eletrico = true, esportivo = false, picape = true, ano = 2008, cor = "Azul", abs = false, preco = 47000, fornecedor_id_fornecedor = 2 WHERE id_veiculo = 1;
+UPDATE veiculos SET marca = "Chevrolet", modelo = "Camaro", potencia = 340, quilometragem = 20000, novos = false, eletrico = false, esportivo = true, picape = false, ano = 2015, cor = "Amarelo", abs = true, preco = 320000, fornecedor_id_fornecedor = 1 WHERE id_veiculo = 2;
+UPDATE veiculos SET marca = "Chevrolet", modelo = "Cruize", potencia = 120, quilometragem = 90000, novos = false, eletrico = false, esportivo = false, picape = false, ano = 2016, cor = "Branco", abs = true, preco = 82000, fornecedor_id_fornecedor = 6 WHERE id_veiculo = 3;
+UPDATE veiculos SET marca = "Bentley", modelo = "Bentayga", potencia = 450, quilometragem = 0, novos = true, eletrico = false, esportivo = true, picape = false, ano = 2020, cor = "Cinza", abs = true, preco = 750000, fornecedor_id_fornecedor = 8 WHERE id_veiculo = 4;
+UPDATE veiculos SET marca = "koenigsegg", modelo = "Agera", potencia = 1176, quilometragem = 10000, novos = false, eletrico = false, esportivo = true, picape = false, ano = 2021, cor = "Vermelho", abs = true, preco = 1200000, fornecedor_id_fornecedor = 10 WHERE id_veiculo = 5;
+UPDATE veiculos SET marca = "Bugatti", modelo = "Chiron", potencia = 700, quilometragem = 0, novos = true, eletrico = false, esportivo = true, picape = false, ano = 2017, cor = "Azul", abs = true, preco = 1100000, fornecedor_id_fornecedor = 16 WHERE id_veiculo = 6;
+UPDATE veiculos SET marca = "Dodge", modelo = "Ram", potencia = 500, quilometragem = 45000, novos = false, eletrico = false, esportivo = false, picape = true, ano = 2016, cor = "Preto", abs = true, preco = 500000, fornecedor_id_fornecedor = 25 WHERE id_veiculo = 7;
+UPDATE veiculos SET marca = "Fiat", modelo = "Uno", potencia = 95, quilometragem = 120000, novos = false, eletrico = false, esportivo = false, picape = false, ano = 2002, cor = "Bordô", abs = false, preco = 25000, fornecedor_id_fornecedor = 24 WHERE id_veiculo = 8;
+UPDATE veiculos SET marca = "Nissan", modelo = "Kicks", potencia = 120, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2023, cor = "Branco", abs = true, preco = 95000, fornecedor_id_fornecedor = 23 WHERE id_veiculo = 9;
+UPDATE veiculos SET marca = "Hiunday", modelo = "Creta", potencia = 135, quilometragem = 0, novos = true, eletrico = false, esportivo = false, picape = false, ano = 2022, cor = "Cinza", abs = true, preco = 145000, fornecedor_id_fornecedor = 22 WHERE id_veiculo = 10;
+
 DELETE FROM funcionarios WHERE matricula = 1;
 DELETE FROM funcionarios WHERE matricula = 2;
 DELETE FROM funcionarios WHERE matricula = 3;
