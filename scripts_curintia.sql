@@ -13,7 +13,6 @@ CREATE TABLE IF NOT EXISTS `enderecos` (
   `bairro` VARCHAR(45) NOT NULL,
   `cidade` VARCHAR(45) NOT NULL,
   `estado` VARCHAR(45) NOT NULL,
-  `complemento` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`cep`)
 );
 
@@ -222,31 +221,31 @@ insert into funcionarios (nome, cpf, contato, salario, funcao, enderecos_cep) va
 insert into funcionarios (nome, cpf, contato, salario, funcao, enderecos_cep) values ('Ashbey', 98288857125, 79896897818, 66949, 'limpador', 66575921);
 insert into funcionarios (nome, cpf, contato, salario, funcao, enderecos_cep) values ('Nani', 89697889863, 71680589359, 367649, 'vendedor', 98860771);
 
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Adelheid', 68704944920, 'SedVestibulum.ppt', false, 'Silhouette');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Vasily', 52884361363, 'EtTempus.xls', true, 'S10');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Herold', 7823368975, 'BlanditNon.tiff', false, 'Navigator');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Bengt', 49315960949, 'VelAugue.gif', false, 'VehiCROSS');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Lionello', 28282848725, 'Suspendisse.ppt', true, 'Expedition');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Ianthe', 96792793746, 'Nec.pdf', false, 'Suburban 1500');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Riane', 17360308262, 'Molestie.jpeg', true, 'E-Class');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Lyell', 9639596492, 'Luctus.mp3', true, 'Optima');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Alix', 23754333721, 'Ac.mov', true, 'Camaro');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Magdalene', 83304029884, 'LiberoRutrumAc.gif', true, 'Solara');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Darwin', 82630920672, 'OrciEgetOrci.xls', false, 'RAV4');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Jerry', 44004039565, 'UltricesErat.txt', false, 'Solara');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Clea', 89182525968, 'PedeJusto.gif', true, 'V70');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Robinia', 11987259151, 'Mauris.tiff', true, 'Beretta');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Rabbi', 49716363623, 'RisusSemperPorta.ppt', true, 'Cabriolet');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Karisa', 17698270604, 'IntegerAliquet.xls', true, 'XL-7');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Mikaela', 22032283259, 'ArcuAdipiscingMolestie.xls', false, 'Escalade EXT');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Alvis', 50868545150, 'OrciVehiculaCondimentum.xls', false, 'Silverado 3500');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Ertha', 35386100041, 'CongueDiam.mp3', false, 'MDX');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Conrade', 28482723167, 'Phasellus.xls', false, 'Horizon');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Dion', 81491983259, 'DiamNeque.tiff', true, 'Toronado');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Berton', 20633940404, 'APede.jpeg', false, 'Miata MX-5');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Jacob', 19431254984, 'CuraeNullaDapibus.mp3', true, 'B-Series');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Melva', 37264335722, 'OdioOdioElementum.mp3', true, 'Defender 110');
-insert into vendidos (nome, cpf, usuario, ipva_pago, modelo) values ('Hildagard', 90710219622, 'Nunc.txt', true, 'NV2500');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Adelheid', 68704944920, 'SedVestibulum.ppt', false, 'Silhouette',1,1,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Vasily', 52884361363, 'EtTempus.xls', true, 'S10',2,2,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Herold', 7823368975, 'BlanditNon.tiff', false, 'Navigator',3,3,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Bengt', 49315960949, 'VelAugue.gif', false, 'VehiCROSS',4,4,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Lionello', 28282848725, 'Suspendisse.ppt', true, 'Expedition',5,5,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Ianthe', 96792793746, 'Nec.pdf', false, 'Suburban 1500',6,6,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Riane', 17360308262, 'Molestie.jpeg', true, 'E-Class',7,7,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Lyell', 9639596492, 'Luctus.mp3', true, 'Optima',8,8,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Alix', 23754333721, 'Ac.mov', true, 'Camaro',9,9,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Magdalene', 83304029884, 'LiberoRutrumAc.gif', true, 'Solara',10,10,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Darwin', 82630920672, 'OrciEgetOrci.xls', false, 'RAV4',11,11,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Jerry', 44004039565, 'UltricesErat.txt', false, 'Solara',12,12,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Clea', 89182525968, 'PedeJusto.gif', true, 'V70',13,13,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Robinia', 11987259151, 'Mauris.tiff', true, 'Beretta',14,14,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Rabbi', 49716363623, 'RisusSemperPorta.ppt', true, 'Cabriolet',15,15,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Karisa', 17698270604, 'IntegerAliquet.xls', true, 'XL-7',16,16,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Mikaela', 22032283259, 'ArcuAdipiscingMolestie.xls', false, 'Escalade EXT',17,17,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Alvis', 50868545150, 'OrciVehiculaCondimentum.xls', false, 'Silverado 3500',18,18,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Ertha', 35386100041, 'CongueDiam.mp3', false, 'MDX',19,19,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Conrade', 28482723167, 'Phasellus.xls', false, 'Horizon',20,20,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Dion', 81491983259, 'DiamNeque.tiff', true, 'Toronado',21,21,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Jacob', 19431254984, 'CuraeNullaDapibus.mp3', true, 'B-Series',22,22,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Melva', 37264335722, 'OdioOdioElementum.mp3', true, 'Defender 110',23,23,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Hildagard', 90710219622, 'Nunc.txt', true, 'NV2500',24,24,'Picape');
+insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('vhbjdfhg', 90710219623, 'Nunc.txt', true, 'NV2500',25,25,'Picape');
 
 select * from veiculos;
 select * from enderecos;
