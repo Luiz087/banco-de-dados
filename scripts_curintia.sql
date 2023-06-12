@@ -280,6 +280,12 @@ UPDATE funcionarios SET nome ="Luiz", cpf="04223201026", contato="67936405889", 
 UPDATE funcionarios SET nome ="Luis", cpf="36257549086", contato="95937385512", salario="234567", funcao = 'aprendiz de vendas', enderecos_cep = 90807252 WHERE matricula = 9;
 UPDATE funcionarios SET nome ="Eric", cpf="54985014044", contato="95937385511", salario="498654", funcao = 'dono', enderecos_cep = 90807252 WHERE matricula = 10;
 
+DELETE FROM funcionarios WHERE matricula = 1;
+DELETE FROM funcionarios WHERE matricula = 2;
+DELETE FROM funcionarios WHERE matricula = 3;
+DELETE FROM funcionarios WHERE matricula = 4;
+DELETE FROM funcionarios WHERE matricula = 5;
+
 select * from veiculos;
 select * from enderecos;
 select * from funcionarios;
