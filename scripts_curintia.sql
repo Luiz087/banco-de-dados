@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS `fornecedores` (
   `endereco_cep` BIGINT NOT NULL,
   PRIMARY KEY (`id_fornecedor`),
   CONSTRAINT `fk_fornecedor_endereco1` FOREIGN KEY (`endereco_cep`) REFERENCES `enderecos` (`cep`)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `veiculos` (
@@ -45,6 +46,7 @@ CREATE TABLE IF NOT EXISTS `veiculos` (
   `fornecedor_id_fornecedor` BIGINT NOT NULL,
   PRIMARY KEY (`id_veiculo`),
   CONSTRAINT `fk_veiculos_fornecedor1` FOREIGN KEY (`fornecedor_id_fornecedor`) REFERENCES `fornecedores` (`id_fornecedor`)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `clientes` (
@@ -57,6 +59,7 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   `table1_cep` BIGINT NOT NULL,
   PRIMARY KEY (`id_cliente`),
   CONSTRAINT `fk_clientes_table11` FOREIGN KEY (`table1_cep`) REFERENCES `enderecos` (`cep`)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `funcionarios` (
@@ -69,6 +72,7 @@ CREATE TABLE IF NOT EXISTS `funcionarios` (
   `enderecos_cep` BIGINT NOT NULL,
   PRIMARY KEY (`matricula`),
   CONSTRAINT `fk_funcionarios_enderecos1` FOREIGN KEY (`enderecos_cep`) REFERENCES `enderecos` (`cep`)
+  ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS `vendidos` (
@@ -86,9 +90,10 @@ CREATE TABLE IF NOT EXISTS `vendidos` (
     `clientes_id_cliente`,
     `funcionarios_matricula`
   ),
-  CONSTRAINT `fk_carros_has_clientes_carros1` FOREIGN KEY (`veiculos_id_veiculo`) REFERENCES `veiculos` (`id_veiculo`),
-  CONSTRAINT `fk_carros_has_clientes_clientes1` FOREIGN KEY (`clientes_id_cliente`) REFERENCES `clientes` (`id_cliente`),
+  CONSTRAINT `fk_carros_has_clientes_carros1` FOREIGN KEY (`veiculos_id_veiculo`) REFERENCES `veiculos` (`id_veiculo`) ON DELETE CASCADE,
+  CONSTRAINT `fk_carros_has_clientes_clientes1` FOREIGN KEY (`clientes_id_cliente`) REFERENCES `clientes` (`id_cliente`) ON DELETE CASCADE,
   CONSTRAINT `fk_vendidos_funcionarios1` FOREIGN KEY (`funcionarios_matricula`) REFERENCES `funcionarios` (`matricula`)
+  ON DELETE CASCADE
 );
 
 insert into enderecos (cep, rua, bairro, cidade, estado) values (98860771, 'Park Meadow', 'barracão', 'Newport News', 'Virginia');
@@ -314,6 +319,18 @@ DELETE FROM veiculos WHERE id_veiculo = 2;
 DELETE FROM veiculos WHERE id_veiculo = 3;
 DELETE FROM veiculos WHERE id_veiculo = 4;
 DELETE FROM veiculos WHERE id_veiculo = 5;
+
+DELETE FROM clientes WHERE id_cliente = 3;
+DELETE FROM clientes WHERE id_cliente = 8;
+DELETE FROM clientes WHERE id_cliente = 13;
+DELETE FROM clientes WHERE id_cliente = 14;
+DELETE FROM clientes WHERE id_cliente = 15;
+
+DELETE FROM enderecos WHERE cep = 18853418;
+DELETE FROM enderecos WHERE cep = 77727522;
+DELETE FROM enderecos WHERE cep = 6131187;
+DELETE FROM enderecos WHERE cep = 72792903;
+DELETE FROM enderecos WHERE cep = 90000298;
 
 select * from veiculos;
 select * from enderecos;
