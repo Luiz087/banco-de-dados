@@ -152,7 +152,7 @@ insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep)
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Minny', '4th Floor', 72377443654307, 3512203764, 'Jaxnation', 18853418);
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Melinda', '4th Floor', 76062709614653, 9555072911, 'Eazzy', 77727522);
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Benedikta', '9th Floor', 90187484363241, 8638928930, 'Kwimbee', 53015239);
-insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Myra', 'PO Box 79123', 89911952851122, 6932423640, 'Dabjam', 90807252);
+insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Myra', 'PO Box 79123', 89911952851122, 6932423640, 'Dabjam', 53015239);
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Catlaina', 'PO Box 89699', 98650769044682, 6685031243, 'Gabtune', 83300006);
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Peggie', 'Room 1150', 33299526629846, 1194827427, 'Ntag', 6131187);
 insert into fornecedores (nome, endereco, cnpj, telefone, empresa, endereco_cep) values ('Dedra', 'Room 1512', 11387936755749, 5239009837, 'Eidel', 72792903);
@@ -257,6 +257,17 @@ UPDATE enderecos SET rua ="Bela Mur",bairro="Bela Vista",cidade="Gaspar",estado=
 UPDATE enderecos SET rua ="7 de Novembro",bairro="Velha Nova",cidade="Blumenau",estado="SC" WHERE cep = 77727522;
 UPDATE enderecos SET rua ="Rua Steves",bairro="Ponta Aguda",cidade="Springfield",estado="Texas" WHERE cep = 53015239;
 UPDATE enderecos SET rua ="Rua Joinville",bairro="Passo Manso",cidade="Blumenau",estado="SC" WHERE cep = 90807252;
+
+UPDATE fornecedores SET nome = "ASTOLFO", endereco="Apt 3543",cnpj=5646765373, telefone= 25254564364, empresa= "slefd", endereco_cep=98860771 WHERE id_fornecedor= 1;
+UPDATE fornecedores SET nome = "RODRIGO", endereco="10th flack",cnpj=7583939404, telefone= 46543364653, empresa= "rolú", endereco_cep=26360149 WHERE id_fornecedor= 2;
+UPDATE fornecedores SET nome = "LUÍS", endereco="suíte 666",cnpj=9605054839, telefone= 86940285032, empresa= "plasvale", endereco_cep=24971323 WHERE id_fornecedor= 3;
+UPDATE fornecedores SET nome = "GABRIEL", endereco="PO BOX 9393",cnpj=0950402819, telefone= 8694031257, empresa= "CIRCULO", endereco_cep=32813459 WHERE id_fornecedor= 4;
+UPDATE fornecedores SET nome = "jOÃO", endereco="ROOM 3543",cnpj=8684938289, telefone= 96847302839, empresa= "OTTO", endereco_cep=33395580 WHERE id_fornecedor= 5;
+UPDATE fornecedores SET nome = "SABEL", endereco="PO BOX 6547",cnpj=9437439975, telefone= 95837259392, empresa= "TOP", endereco_cep=66575921 WHERE id_fornecedor= 6;
+UPDATE fornecedores SET nome = "FERNANDO", endereco="ROOM 5353",cnpj=8963986379, telefone= 05695845944, empresa= "PRECEIRO", endereco_cep=18853418 WHERE id_fornecedor= 7;
+UPDATE fornecedores SET nome = "ERIC", endereco="PO BOX 54354",cnpj=5676765735, telefone= 575454745754, empresa= "AVON", endereco_cep=77727522 WHERE id_fornecedor= 8;
+UPDATE fornecedores SET nome = "PEDRO", endereco="PO BOX 5435",cnpj=9584930295, telefone= 65858496943, empresa= "OBOTICARIO", endereco_cep=53015239 WHERE id_fornecedor= 9;
+UPDATE fornecedores SET nome = "LUCAS", endereco=" BOX 46436",cnpj=5754774567, telefone= 57578474737, empresa= "BARÃO", endereco_cep=53015239 WHERE id_fornecedor= 10;
 
 
 
