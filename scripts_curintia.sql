@@ -303,6 +303,11 @@ DELETE FROM fornecedores WHERE id_fornecedor = 3;
 DELETE FROM fornecedores WHERE id_fornecedor = 4;
 DELETE FROM fornecedores WHERE id_fornecedor = 5;
 
+DELETE FROM veiculos WHERE id_veiculo = 1;
+DELETE FROM veiculos WHERE id_veiculo = 2;
+DELETE FROM veiculos WHERE id_veiculo = 3;
+DELETE FROM veiculos WHERE id_veiculo = 4;
+DELETE FROM veiculos WHERE id_veiculo = 5;
 
 select * from veiculos;
 select * from enderecos;
