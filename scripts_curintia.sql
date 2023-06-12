@@ -252,6 +252,20 @@ insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Hildagard', 90710219622, 'Nunc.txt', true, 'NV2500',24,24,'Picape');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('vhbjdfhg', 90710219623, 'Nunc.txt', true, 'NV2500',25,25,'Picape');
 
+SELECT COUNT(*) FROM enderecos;
+SELECT COUNT(*) FROM clientes;
+SELECT COUNT(*) FROM fornecedores;
+SELECT COUNT(*) FROM veiculos;
+SELECT COUNT(*) FROM funcionarios;
+SELECT COUNT(*) FROM vendidos;
+
+SELECT * FROM enderecos order by cep;
+SELECT * FROM clientes order by id_cliente;
+SELECT * FROM fornecedores order by id_fornecedor;
+SELECT * FROM veiculos order by id_veiculo;
+SELECT * FROM funcionarios order by matricula;
+SELECT * FROM vendidos order by veiculos_id_veiculo;
+
 UPDATE enderecos SET rua ="Rua dos bobos",bairro="Velha",cidade="Jaragua",estado="SC" WHERE cep = 98860771;
 UPDATE enderecos SET rua ="Blumenau",bairro="Velha",cidade="Blumenau",estado="SC" WHERE cep = 26360149;
 UPDATE enderecos SET rua ="Arthur Gieseler",bairro="Nova",cidade="Joinville",estado="SC" WHERE cep = 26360149;
@@ -331,10 +345,3 @@ DELETE FROM enderecos WHERE cep = 77727522;
 DELETE FROM enderecos WHERE cep = 6131187;
 DELETE FROM enderecos WHERE cep = 72792903;
 DELETE FROM enderecos WHERE cep = 90000298;
-
-select * from veiculos;
-select * from enderecos;
-select * from funcionarios;
-select * from clientes;
-select * from fornecedores;
-select * from vendidos;
