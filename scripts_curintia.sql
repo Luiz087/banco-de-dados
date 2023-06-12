@@ -247,6 +247,19 @@ insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('Hildagard', 90710219622, 'Nunc.txt', true, 'NV2500',24,24,'Picape');
 insert into vendidos (nome, cpf, usuario, ipva_pago, modelo,clientes_id_cliente,funcionarios_matricula,tipo_veiculo) values ('vhbjdfhg', 90710219623, 'Nunc.txt', true, 'NV2500',25,25,'Picape');
 
+UPDATE enderecos SET rua ="Rua dos bobos",bairro="Velha",cidade="Jaragua",estado="SC" WHERE cep = 98860771;
+UPDATE enderecos SET rua ="Blumenau",bairro="Velha",cidade="Blumenau",estado="SC" WHERE cep = 26360149;
+UPDATE enderecos SET rua ="Arthur Gieseler",bairro="Nova",cidade="Joinville",estado="SC" WHERE cep = 26360149;
+UPDATE enderecos SET rua ="XV",bairro="Centro",cidade="Presidente Getulio",estado="SC" WHERE cep = 32813459;
+UPDATE enderecos SET rua ="Rua 7",bairro="Conconhas",cidade="Florianopolis",estado="SC" WHERE cep = 33395580;
+UPDATE enderecos SET rua ="Getulio Branco",bairro="Vila Nova",cidade="São Bento do Sul",estado="SC" WHERE cep = 18853418;
+UPDATE enderecos SET rua ="Bela Mur",bairro="Bela Vista",cidade="Gaspar",estado="SC" WHERE cep = 66575921;
+UPDATE enderecos SET rua ="7 de Novembro",bairro="Velha Nova",cidade="Blumenau",estado="SC" WHERE cep = 77727522;
+UPDATE enderecos SET rua ="Rua Steves",bairro="Ponta Aguda",cidade="Springfield",estado="Texas" WHERE cep = 53015239;
+UPDATE enderecos SET rua ="Rua Joinville",bairro="Passo Manso",cidade="Blumenau",estado="SC" WHERE cep = 90807252;
+
+
+
 select * from veiculos;
 select * from enderecos;
 select * from funcionarios;
