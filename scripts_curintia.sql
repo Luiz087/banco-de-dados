@@ -351,6 +351,17 @@ UPDATE vendidos SET nome = "Anderson", cpf=66119902759, usuario='luis.lo', ipva_
 UPDATE vendidos SET nome = "Robson", cpf=90190269766, usuario='Eric.sa', ipva_pago=true, modelo='Camaro', clientes_id_cliente=9, funcionarios_matricula=9, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 9 ;
 UPDATE vendidos SET nome = "Welliton", cpf=94642174800, usuario='luiz.s', ipva_pago=false, modelo='Navigator', clientes_id_cliente=10, funcionarios_matricula=10, tipo_veiculo='Picape' WHERE veiculos_id_veiculo = 10;
 
+UPDATE clientes SET nome = "Antônio", cpf = 92704148090, usuario = "toninho", telefone = 2365829356, gmail = "shdbghd@gmail.com" WHERE cep = 98860771;
+UPDATE clientes SET nome = "Carlos", cpf = 87655671811, usuario = "carlin", telefone = 876545678, gmail = "uiyrhrg@gmail.com" WHERE cep = 26360149;
+UPDATE clientes SET nome = "Carls", cpf = 34254545351, usuario = "clin", telefone = 465365656, gmail = "yrhrg@gmail.com" WHERE cep = 24971323;
+UPDATE clientes SET nome = "Cawels", cpf = 34252245551, usuario = "clsin", telefone = 786567654, gmail = "ysadrhrg@gmail.com" WHERE cep = 32813459;
+UPDATE clientes SET nome = "Carqwls", cpf = 34253345651, usuario = "clian", telefone = 465365556, gmail = "yrewrhrg@gmail.com" WHERE cep = 33395580;
+UPDATE clientes SET nome = "Carlds", cpf = 34254445751, usuario = "clein", telefone = 465366656, gmail = "yqwrhrg@gmail.com" WHERE cep = 66575921;
+UPDATE clientes SET nome = "Carlasds", cpf = 34254554551, usuario = "clrin", telefone = 465367756, gmail = "dfhrg@gmail.com" WHERE cep = 18853418;
+UPDATE clientes SET nome = "Carlxzcs", cpf = 34254566551, usuario = "cylin", telefone = 465885656, gmail = "yrasdhrg@gmail.com" WHERE cep = 77727522;
+UPDATE clientes SET nome = "Carsas", cpf = 34254547751, usuario = "cliin", telefone = 465399656, gmail = "yrahrg@gmail.com" WHERE cep = 53015239;
+UPDATE clientes SET nome = "Luis", cpf = 34254545881, usuario = "clkin", telefone = 4653622656, gmail = "yrhxzcrg@gmail.com" WHERE cep = 90807252;
+
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 1;
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 2;
 DELETE FROM vendidos WHERE veiculos_id_veiculo = 3;
